@@ -1,0 +1,85 @@
+name: proximate
+description: Bluetooth-based Proximity Profile Sharing and Team Formation
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  
+  # UI & Animation
+  animations: ^2.0.8
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.9
+  
+  # Bluetooth & Connectivity
+  flutter_blue_plus: ^1.10.5
+  permission_handler: ^11.0.1
+  
+  # Firebase
+  firebase_core: ^2.24.3
+  firebase_auth: ^4.15.1
+  cloud_firestore: ^4.15.1
+  firebase_storage: ^11.3.5
+  firebase_analytics: ^10.8.1
+  
+  # AI & ML
+  google_generative_ai: ^0.2.2
+  
+  # Audio
+  audioplayers: ^6.1.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.4.0
+  
+  # Encryption & Security
+  encrypt: ^5.0.1
+  pointycastle: ^3.7.3
+  flutter_secure_storage: ^9.1.2
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.3
+  
+  # Data
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.0
+  get: ^4.6.6
+  provider: ^6.1.1
+  get_it: ^7.6.4
+  
+  # Charts & Visualization
+  fl_chart: ^0.65.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_native_splash: ^2.3.10
+
+flutter:
+  uses-material-design: true
+  
+  # Assets configuration
+  assets:
+    # Sound assets - specify all directories
+    - assets/sounds/
+    - assets/sounds/core/
+    - assets/sounds/ui/
+    - assets/sounds/qr/
+    - assets/sounds/team/
+    
+    # Image assets
+    - assets/images/
+    
+    # Lottie animations (if any)
+    - assets/animations/
+  
+  # Fonts configuration
+  # Note: Using system default monospace font by not declaring custom font asset
+  # This avoids invalid font file errors and falls back to platform default

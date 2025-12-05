@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609389894520",
+    "project_id": "proximate-63abd",
+    "storage_bucket": "proximate-63abd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609389894520:android:c6b65b98abad846b92c68d",
+        "android_client_info": {
+          "package_name": "com.nearby.peopleconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRMC2kNbLzPnEnAYOZT1MhbMhyDCBM-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
